@@ -1,0 +1,61 @@
+@media (max-width: 1024px) {
+    .zooov__title {
+        font-size: 44px;
+        max-width: 336px;
+    }
+
+    .zooov__title:after {
+        background-image: url(../images/zooov/Ellipse-mobile.svg);
+        top: 55px;
+        left: -5px;
+        width: 190px;
+        height: 80px;
+    }
+
+    .zooov__desc {
+        font-size:  18px;
+        max-width: 345px;
+    }
+
+    .zooov:after {
+        background-image: url(../images/zooov/zooov-mobile.svg);
+        width: 145px;
+        height: 334px;
+        right: -52px;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .zooov__desc {
+        max-width: 286px;
+    }
+}
+
+@media (max-width:425px) {
+    .zooov__title {
+        margin-bottom: 24px;
+    }
+
+    .zooov__desc {
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width:375px) {
+    .zooov__title {
+        font-size: 37px;
+    }
+
+    .zooov__title:after {
+        left: -12px;
+        top: 43px;
+        width: 162px;
+        height: 65px;
+    }
+
+    .zooov:after {
+        width: 129px;
+        height: 280px;
+    }
+}
