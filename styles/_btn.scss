@@ -1,0 +1,36 @@
+.btn {
+    border: 1px solid #961914;
+    background-color: #961914;
+    font-weight: 600;
+    color: #fff;
+    white-space: nowrap;
+    padding: 12px 41px;
+    text-align: center;
+    border-radius: 8px;
+    max-width: 226px;
+    transition: .3s;
+
+    &:hover {
+        background-color: #fff;
+        color: #961914;
+        border-color: #961914;
+    }
+
+    &--another {
+
+        &:hover {
+        background-color: inherit;
+        color: #fff;
+        border-color: #fff;
+        }
+    }
+
+    &--another-two {
+
+        &:hover {
+        background-color: inherit;
+        color: #961914;
+        border-color: #961914;
+        }
+    }
+}
